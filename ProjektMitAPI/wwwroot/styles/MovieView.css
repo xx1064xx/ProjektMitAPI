@@ -1,0 +1,181 @@
+﻿:root {
+    /*define the colors*/
+    --primaryColor: #2DD6C5;
+    --veryDarkBlue: #11121F;
+    --black: #000000;
+    --veryLightBlue: #e0ebf7;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.banner {
+    width: 80%;
+}
+
+.rating {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+    .rating img {
+        width: calc(100% / 9);
+    }
+
+.information {
+    margin-top: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
+    .information * {
+        width: calc(80% / 3);
+    }
+
+.left {
+    text-align: start;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: end;
+}
+
+.streamOn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+    .streamOn img {
+        height: 50px;
+        border: 2px solid var(--primaryColor);
+        border-radius: 100%;
+    }
+
+.youtubeVideoContainer {
+    position: relative;
+    width: 80%;
+    padding-bottom: 45%;
+    height: 0;
+}
+
+    .youtubeVideoContainer iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+.reviews {
+    width: 80%;
+    border: 2px solid var(--veryLightBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.reviewCard {
+    border: 2px solid var(--primaryColor);
+    box-shadow: 0px 0px 20px var(--veryLightBlue);
+    width: 90%;
+    padding: 20px;
+}
+
+.reviewRating {
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+    .reviewRating img {
+        width: calc(100% / 8);
+        margin: 0px 10px 0px 10px;
+    }
+
+.reviewCard p {
+    font-size: 20px;
+}
+
+.ShowMoreButtonContainer {
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.ShowMoreButton {
+    border: 1px solid var(--primaryColor);
+    padding: 5px;
+}
+
+    .ShowMoreButton:hover {
+        background-color: var(--primaryColor);
+        color: var(--veryDarkBlue);
+        box-shadow: 0px 0px 10px var(--veryLightBlue);
+    }
+
+.actors {
+    display: flex;
+    gap: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 30px black;
+    aspect-ratio: 10 / 3.5;
+    padding: 20px;
+    width: 80%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.actorCard {
+    background-color: var(--veryLightBlue);
+    box-shadow: 0px 0px 20px var(--veryLightBlue);
+    border-radius: 5%;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    .actorCard * {
+        margin: 20px;
+    }
+
+    .actorCard img {
+        border-radius: 100%;
+        width: 70%;
+        aspect-ratio: 1 / 1;
+        box-shadow: 0px 0px 20px var(--veryDarkBlue);
+    }
+
+    .actorCard h2, .actorCard h3 {
+        color: var(--veryDarkBlue);
+    }

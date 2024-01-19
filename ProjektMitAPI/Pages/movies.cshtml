@@ -1,0 +1,81 @@
+﻿@page
+@model ProjektMitAPI.Pages.moviesModel
+@{
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SCOPE</title>
+        <link rel="icon" href="images/JustLogoNoBackground.png">
+
+        <link rel="stylesheet" href="~/styles/styles.css">
+        <link rel="stylesheet" href="~/styles/index.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.7/dist/handlebars.min.js"></script>
+
+
+    </head>
+    <body>
+
+
+
+
+
+
+
+
+
+        <script type="text/x-handlebars-template" id="movieTemplate">
+            <ul class="list">
+                {{#each movies}}
+                <li class="card">
+                    <a href="/movieView?movie={{identifier}}">
+                        <img src="/images/moviesAndShows/{{identifier}}.jpg">
+                        <h2>{{title}}</h2>
+                        <div class="cardRatingAndPictureSort">
+                            <div class="cardRatingSort">
+                                <h3>{{rating}}</h3><p> / 5</p>
+                            </div>
+
+
+                            <img src="/images/HerzLeer.svg">
+
+                        </div>
+
+                    </a>
+                </li>
+                {{/each}}
+            </ul>
+        </script>
+
+
+
+
+
+        @{
+            Html.RenderPartial("_header");
+        }
+
+        <main>
+            <h1>Filme</h1>
+
+
+            <div class="cardCollection" id="suggestions">
+            </div>
+
+        </main>
+
+        @{
+            Html.RenderPartial("_footer");
+        }
+
+
+        <script src="/scripts/movieCardTemplates.js"></script>
+    </body>
+    </html>
+}

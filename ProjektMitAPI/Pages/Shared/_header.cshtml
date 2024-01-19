@@ -1,0 +1,82 @@
+﻿<header>
+    <script src="/scripts/user-api.js"></script>
+    <script src="/scripts/script.js"></script>
+    <div class="headertop">
+        <div class="hamburger-menu" onclick="toggleMenu()">
+                <span></span>
+                <span class="hide-on-click"></span>
+                <span></span>
+        </div>
+        <a href="/Index"><img src="/images/JustLogoNoBackground.png" alt="scope logo" class="logoHeader"></a>
+        <div id="searchbar">
+            <input type="text" placeholder="Suche">
+            <img src="/images/Untitled.svg" alt="search Icon" >
+        </div>
+        <img src="/images/profilePicture.svg" alt="Profile Picture" id="toggleProfile" class="profilePicture" onclick="toggleProfile()">
+    </div>
+    <div id="profilePage" class="profileDiv">
+        <div class="watchlist">
+            <h1>Merkliste</h1>
+        </div>
+        <div class="verticalLine">
+
+        </div>
+        <div class="personalInfo">
+            <h1>Account</h1>
+            <br /> <br />
+            <div class="personalInfoDiv">
+                <div class="personalInfoContent">
+                    <div class="top">
+                        <div class="personalInfoInfo">
+                            <p>Vorname:</p>
+                            <br />
+                            <p>Nachname:</p>
+                            <br />
+                            <p>Benutzername:</p>
+                            <br />
+                            <p>Email:</p>
+                            <br />
+                        </div>
+                        <div class="personalInfoData">
+                            <input type="text" id="firstNameTF" disabled/>
+                            <br />
+                            <input type="text" disabled id="lastNameTF"/>
+                            <br />
+                            <input type="text" disabled id="usernameTF"/>
+                            <br />
+                            <input type="text" disabled id="emailTF"/>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="empty">
+                            
+                        </div>
+                        <div id="profileEditButtonsDisplay" class="editButtons">
+                            <button>Speichern</button>
+                            <button onclick="doNotEditData()">Abbrechen</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="personalInfoButtons">
+                    <button onclick="editData()">Daten bearbeiten</button>
+                    <br />
+                    <button onclick="deleteAcc()">Account löschen</button>
+                    <br />
+                    <button onclick="signOut()">Abmelden</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <nav>
+
+        <ul id="headerList">
+            <li><a href="./movies"><h3>Filme</h3></a></li>
+            <li><a href="./genre"><h3>Genre</h3></a></li>
+            <li><a href="./availableOn"><h3>Erhältlich auf</h3></a></li>
+        </ul>
+
+    </nav>
+    <hr>
+</header>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="1280.000000pt"
+   height="1161.000000pt"
+   viewBox="0 0 1280.000000 1161.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg8"
+   sodipodi:docname="HerzLeer.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12">
+    <linearGradient
+       id="linearGradient5118"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#2dd6c5;stop-opacity:1;"
+         offset="0"
+         id="stop5116" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5118"
+       id="linearGradient7093"
+       gradientUnits="userSpaceOnUse"
+       x1="-0.20458145"
+       y1="156.55992"
+       x2="341.21677"
+       y2="156.55992" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5118"
+       id="linearGradient7095"
+       gradientUnits="userSpaceOnUse"
+       x1="-0.20458145"
+       y1="156.55992"
+       x2="341.21677"
+       y2="156.55992" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5118"
+       id="linearGradient7107"
+       gradientUnits="userSpaceOnUse"
+       x1="-0.20458145"
+       y1="156.55992"
+       x2="341.21677"
+       y2="156.55992" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5118"
+       id="linearGradient7109"
+       gradientUnits="userSpaceOnUse"
+       x1="-0.20458145"
+       y1="156.55992"
+       x2="341.21677"
+       y2="156.55992" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5118"
+       id="linearGradient873"
+       gradientUnits="userSpaceOnUse"
+       x1="-0.20458145"
+       y1="156.55992"
+       x2="341.21677"
+       y2="156.55992" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5118"
+       id="linearGradient875"
+       gradientUnits="userSpaceOnUse"
+       x1="-0.20458145"
+       y1="156.55992"
+       x2="341.21677"
+       y2="156.55992" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5118"
+       id="linearGradient947"
+       gradientUnits="userSpaceOnUse"
+       x1="-0.20458145"
+       y1="156.55992"
+       x2="341.21677"
+       y2="156.55992" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     showgrid="false"
+     inkscape:zoom="0.43120724"
+     inkscape:cx="773.41002"
+     inkscape:cy="815.15329"
+     inkscape:window-width="2560"
+     inkscape:window-height="1511"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g6" />
+  <metadata
+     id="metadata2">
+Created by potrace 1.15, written by Peter Selinger 2001-2017
+</metadata>
+  <g
+     transform="translate(0.000000,1161.000000) scale(0.100000,-0.100000)"
+     fill="#000000"
+     stroke="none"
+     id="g6">
+    <g
+       inkscape:label="A_perfect_SVG_heart.svg"
+       transform="matrix(37.488424,0,0,-37.192108,7.9460686,11628.178)"
+       id="g213"
+       style="fill:url(#linearGradient7109);fill-opacity:1;stroke:#000000;stroke-opacity:1">
+      <desc
+         id="desc209">
+   a nearly perfect heart
+	 made of two arcs and a right angle
+ </desc>
+      <g
+         id="use211"
+         style="fill:url(#linearGradient7095);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+         transform="rotate(-135,150,121)">
+        <path
+           id="path7089"
+           style="fill:url(#linearGradient7093)"
+           d="M 272.12022 169.27221 A 100 100 0 0 0 200.00019 -3.6360873e-05 L 0.00020959926 3.5106753e-05 L 0.00013813163 200.00001 A 100 100 0 0 0 200.00011 199.99994 A 100 100 0 0 0 272.12022 169.27221 z M 155.92233 257.89357 C 141.59273 272.37513 122.02087 281.30161 99.159849 281.12072 C 48.24273 280.71784 17.183433 236.55969 17.183441 187.99013 L 17.183441 18.174075 L 186.99977 18.173798 C 238.59209 18.17379 284.38118 49.372826 281.12761 102.45987 C 278.0196 153.17177 231.3077 185.02999 181.04739 182.03802 C 184.10433 211.47252 174.34609 239.27441 155.92233 257.89357 z " />
+      </g>
+    </g>
+    <g
+       inkscape:label="A_perfect_SVG_heart.svg"
+       transform="matrix(33.703596,0,0,-33.437196,652.14415,11127.967)"
+       id="g213-7"
+       style="fill:url(#linearGradient947);fill-opacity:1;stroke:#000000;stroke-opacity:1">
+      <desc
+         id="desc209-5">
+   a nearly perfect heart
+	 made of two arcs and a right angle
+ </desc>
+      <g
+         id="use211-6"
+         style="fill:url(#linearGradient875);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+         transform="rotate(-135,150,121)">
+        <path
+           id="path7089-9"
+           style="fill:url(#linearGradient873)"
+           d="M 272.12022,169.27221 A 100,100 0 0 0 200.00019,-3.6360873e-5 L 2.0959926e-4,3.5106753e-5 1.3813163e-4,200.00001 A 100,100 0 0 0 200.00011,199.99994 100,100 0 0 0 272.12022,169.27221 Z m -116.19789,88.62136 c -14.3296,14.48156 -33.90146,23.40804 -56.762481,23.22715 C 48.24273,280.71784 17.183433,236.55969 17.183441,187.99013 V 18.174075 l 169.816329,-2.77e-4 c 51.59232,-8e-6 97.38141,31.199028 94.12784,84.286072 -3.10801,50.7119 -49.81991,82.57012 -100.08022,79.57815 3.05694,29.4345 -6.7013,57.23639 -25.12506,75.85555 z" />
+      </g>
+    </g>
+    <g
+       inkscape:label="A_perfect_SVG_heart.svg"
+       transform="matrix(31.830709,0,0,-31.579102,998.87456,10803.27)"
+       id="g213-1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1">
+      <desc
+         id="desc209-4">
+   a nearly perfect heart
+	 made of two arcs and a right angle
+ </desc>
+      <g
+         id="use211-0"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+         transform="rotate(-135,150,121)" />
+    </g>
+  </g>
+</svg>

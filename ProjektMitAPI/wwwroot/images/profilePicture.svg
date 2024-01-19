@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200mm"
+   height="200mm"
+   viewBox="0 0 200 200"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="profile.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.829812"
+     inkscape:cx="354.68124"
+     inkscape:cy="416.98273"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="1609"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Ebene 2">
+    <path
+       id="path111-6"
+       style="fill:#2dd6c5;fill-opacity:1;stroke-width:0.541316"
+       d="M 100.0001 110 A 90 90 0 0 0 31.668351 141.59963 A 80 80 0 0 0 100.0001 179.99987 A 80 80 0 0 0 168.36285 141.55002 A 90 90 0 0 0 100.0001 110 z M 174.79347 150.05544 A 90 90 0 0 1 100.0001 189.99977 A 90 90 0 0 1 25.244971 150.10867 A 90 90 0 0 0 19.68562 159.55253 A 100 100 0 0 0 100.0001 200.0002 A 100 100 0 0 0 180.36263 159.50241 A 90 90 0 0 0 174.79347 150.05544 z " />
+    <circle
+       style="fill:#2dd6c5;fill-opacity:1;stroke-width:0.210512"
+       id="path111"
+       cx="100"
+       cy="70"
+       r="35" />
+    <path
+       id="path111-4"
+       style="fill:#2dd6c5;fill-opacity:1;stroke-width:0.601462"
+       d="M 100.0001 0 A 100 100 0 0 0 0 100.0001 A 100 100 0 0 0 100.0001 200.0002 A 100 100 0 0 0 200.0002 100.0001 A 100 100 0 0 0 100.0001 0 z M 100.0001 9.9999064 A 90 90 0 0 1 189.99977 100.0001 A 90 90 0 0 1 100.0001 189.99977 A 90 90 0 0 1 9.9999064 100.0001 A 90 90 0 0 1 100.0001 9.9999064 z " />
+  </g>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+</svg>

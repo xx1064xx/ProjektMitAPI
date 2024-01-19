@@ -1,0 +1,459 @@
+﻿:root {
+    /*define the colors*/
+    --primaryColor: #2DD6C5;
+    --veryDarkBlue: #11121F;
+    --black: #000000;
+    /*--veryLightBlue: #CFE1F5;*/
+    --veryLightBlue: #e0ebf7;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--veryLightBlue);
+}
+
+main, header {
+    background-color: var(--veryDarkBlue);
+    padding: 25px;
+    color: var(--veryLightBlue);
+    flex: 1;
+    z-index: 999;
+}
+
+/* Profil Page */
+
+.profileDiv {
+    display: flex;
+    overflow: hidden;
+    height: 0px;
+    transition: all 0.5s ease;
+}
+
+.watchlist {
+    margin: 15px;
+    width: 70%;
+}
+
+.verticalLine {
+    background-color: var(--veryLightBlue);
+    width: 1px;
+    box-shadow: 0px 0px 10px var(--primaryColor);
+    margin-right: 15px;
+}
+
+.personalInfo
+{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 30%;
+}
+
+.personalInfoDiv
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.personalInfo .personalInfoContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.personalInfo .personalInfoContent .top {
+    display: flex;
+}
+    .personalInfo .personalInfoContent .bottom 
+    {
+        display: flex;
+    }
+
+.personalInfoContent .personalInfoInfo 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.personalInfoContent .personalInfoData 
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    .personalInfoContent .personalInfoData input {
+        height: 12.5%;
+        appearance: none;
+        text-decoration: none;
+        background-color: var(--veryLightBlue);
+        font-family: inherit;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        color: var(--veryDarkBlue);
+        font-size: 16px;
+        width: 100%;
+    }
+
+
+.personalInfo .personalInfoButtons {
+    width: 100%;
+}
+
+    .personalInfo .personalInfoButtons button {
+        width: 150px;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-family: inherit;
+        color: var(--veryDarkBlue);
+        background-color: var(--veryLightBlue);
+        border-radius: 5px;
+        border: none;
+        font-size: 15px;
+        transition: all 0.5s ease;
+    }
+
+    .personalInfo .personalInfoButtons button:hover {
+        width: 160px;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-family: inherit;
+        color: var(--veryDarkBlue);
+        background-color: var(--veryLightBlue);
+        border-radius: 5px;
+        border: none;
+        font-size: 15px;
+    }
+
+.personalInfoContent .bottom .empty {
+    width: 50%;
+    
+}
+
+.personalInfoContent .bottom .editButtons {
+    display: none;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    width: 50%;
+    
+}
+
+    .personalInfoContent .bottom .editButtons button {
+        padding: 5px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-family: inherit;
+        color: var(--veryDarkBlue);
+        background-color: var(--veryLightBlue);
+        border-radius: 5px;
+        border: none;
+        font-size: 15px;
+        width: 100px;
+        transition: all 0.5s ease;
+    }
+
+    .personalInfoContent .bottom .editButtons button:hover {
+        padding-top: 5px;
+        margin-right: 5px;
+        font-family: inherit;
+        color: var(--veryDarkBlue);
+        background-color: var(--veryLightBlue);
+        border-radius: 5px;
+        border: none;
+        font-size: 15px;
+        width: 105px;
+    }
+
+
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+.line {
+    padding: 1px;
+    border-radius: 100%;
+    background-color: var(--veryLightBlue);
+    height: 1px;
+    width: 80%;
+    margin: 50px 0 50px 0;
+    box-shadow: 0px 0px 20px var(--veryLightBlue);
+}
+
+
+/* HEADER */
+
+.headertop {
+    margin: 0 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.profilePicture {
+    border-radius: 100%;
+}
+
+header input {
+    height: 50px;
+    width: 400px;
+    font-size: 25px;
+    padding-left: 5px;
+    background-color: var(--veryLightBlue);
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+#searchbar {
+    display: flex;
+    /*border: 2px solid var(--primaryColor);*/
+    padding: 5px;
+    border-radius: 15px;
+    height: 40px;
+    background-color: var(--veryLightBlue);
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+    #searchbar input {
+        outline: none; /* Entfernt den Standard-Fokusrand */
+        background-color: transparent; /* Entfernt den Standard-Hintergrund */
+        font-family: inherit; /* Verwendet die Schriftart des Ã¼bergeordneten Elements */
+        border: none;
+        color: var(--veryDarkBlue);
+    }
+
+    #searchbar img {
+        display: block;
+        height: 30px;
+        width: 30px;
+        margin-right: 5px;
+        /*border: 3px solid var(--veryLightBlue);*/
+    }
+
+header hr {
+    border-color: var(--veryLightBlue);
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px var(--primaryColor);
+}
+
+
+
+header nav {
+    margin: 40px 0 40px 0;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5px 0 10px;
+}
+
+    header ul li {
+        list-style: none;
+    }
+
+        header ul li a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /*background-color: var(--primaryColor);*/
+            height: 40px;
+            width: calc(100vw/4 - 35px);
+            font-size: 25px;
+            text-decoration: none;
+            color: var(--veryDarkBlue);
+            border-radius: 5px;
+            transition: 0.5s;
+        }
+
+            header ul li a:hover {
+                font-size: 30px;
+            }
+
+/* Scrollbar /
+/ Webkit Browsers */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--veryDarkBlue);
+    border: 2px solid var(--primaryColor);
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primaryColor);
+    border-radius: 100vw;
+}
+
+/* Standard Browsers /
+    / Firefox */
+html {
+    scrollbar-width: auto;
+    scrollbar-color: var(--primaryColor) var(--veryDarkBlue);
+}
+
+/* Chrome, Edge, Opera */
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--veryDarkBlue);
+    border: 2px solid var(--primaryColor);
+    border-radius: 100vw;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--primaryColor);
+    border-radius: 100vw;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: var(--black);
+    color: var(--veryLightBlue);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 50px 0 50px 0;
+
+}
+
+    footer img {
+        width: 100px;
+    }
+
+#ScopeAcronym {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+/* MOBILE VERSION */
+
+@media screen and (max-width: 768px)
+{
+    .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+        cursor: pointer;
+        padding-right: 10px;
+    }
+
+        .hamburger-menu span {
+            display: block;
+            width: 100%;
+            height: 10px;
+            background-color: var(--primaryColor);
+            transition: transform 0.3s ease;
+            border-radius: 5px;
+        }
+
+            .hamburger-menu span:not(:last-child) {
+                margin-bottom: 0.6rem;
+            }
+
+        .hamburger-menu.active span:first-child {
+            transform: translateY(19.4px) rotate(45deg);
+        }
+
+        .hamburger-menu.active span:last-child {
+            transform: translateY(-19.4px) rotate(-45deg);
+        }
+
+    header img {
+        width: 70px;
+        height: 70px;
+        cursor: pointer;
+    }
+    
+    #searchbar
+    {
+        display: none;
+    }
+
+    header ul {
+        overflow: hidden;
+        height: 0px;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        transition: all 0.5s ease;
+        max-height: 300px;
+    }
+
+    header ul li {
+        display: flex;
+        width: 100%;
+    }
+
+        header ul li a{
+            width: 100%;
+        }
+
+
+    .verticalLine {
+        background-color: var(--veryLightBlue);
+        height: 1px;
+        box-shadow: 0px 0px 10px var(--primaryColor);
+        margin-right: 15px;
+        width: 100%;
+    }
+
+    .profileDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .personalInfo {
+        display: flex;
+        flex: 1;
+        width: calc(100% - 30px);
+    }
+
+
+}

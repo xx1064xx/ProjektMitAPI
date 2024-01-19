@@ -1,0 +1,33 @@
+﻿@page
+@model ProjektMitAPI.Pages.availableOnModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+@{
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SCOPE</title>
+        <link rel="icon" href="images/JustLogoNoBackground.png">
+
+        <link rel="stylesheet" href="~/styles/styles.css">
+        <link rel="stylesheet" href="~/styles/index.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.7/dist/handlebars.min.js"></script>
+
+    </head>
+
+	Html.RenderPartial("_header");
+
+
+    <main>
+	    <h1>Serien</h1>
+    </main>
+
+    Html.RenderPartial("_footer");
+
+}

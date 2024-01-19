@@ -1,0 +1,148 @@
+﻿@page
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!--model und so kann potentiell entfernt werden-->
+@model ProjektMitAPI.Pages.IndexModel
+@{
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SCOPE</title>
+        <link rel="icon" href="images/JustLogoNoBackground.png">
+
+        <link rel="stylesheet" href="~/styles/styles.css">
+        <link rel="stylesheet" href="~/styles/index.css">
+        
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+
+
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.7/dist/handlebars.min.js"></script>
+        <script src="~/scripts/script.js"></script>
+        <script src="~/scripts/user-api.js"></script>
+
+    </head>
+    <body>
+        <script type="text/x-handlebars-template" id="movieTemplate">
+
+            
+            <ul class="list">
+                {{#each this}}
+                <li class="card">
+                    <a href="/movieView?movie={{identifier}}">
+                        <img src="/images/moviesAndShows/{{identifier}}.jpg">
+                        <h2>{{title}}</h2>
+                        <div class="cardRatingAndPictureSort">
+                            <div class="cardRatingSort">
+                                <h3>{{rating}}</h3><p> / 5</p>
+                            </div>
+
+
+                            <img src="/images/HerzLeer.svg" alt="Blaues Herz" onclick="
+                            event.preventDefault(); // verhindert, dass der Link des überliegenden div's ausgeführt wird
+                            const token = localStorage.getItem('jwt-token');
+                            if(token != null){
+                                account = true;
+                            }
+                            else{
+                                account = false;
+                            }
+                            if (account) {
+                                console.log('Benutzer angemeldet');
+                                
+                                const element = this;
+                                if (element.src.includes('HerzLeer.svg')) {
+                                    element.src = '/images/HerzVoll.svg';
+                                } else {
+                                    element.src = '/images/HerzLeer.svg';
+                                }
+                                event.stopPropagation(); // Hier, wenn der Klick nicht auf andere Elemente übertragen werden soll
+                                // Weitere Aktionen hier...
+
+                            }
+                            else {
+                                window.location.href = '/login'; // Leitet zum Login weiter falls man nicht angemeldet ist
+                            }
+                        ">
+
+                        </div>
+
+                    </a>
+                </li>
+                {{/each}}
+            </ul>
+        </script>
+
+
+        @{
+            Html.RenderPartial("_header");
+        }
+
+
+        
+
+        <main>
+            
+            
+            <h1>Vorschläge</h1>
+
+
+            <div class="cardCollection" id="suggestions">
+            </div>
+
+
+            <h1>Neuerscheinungen</h1>
+
+            <div class="cardCollection" id="comingSoon">
+                <!--
+                <div class="card">
+                    <img src="/images/moviesAndShows/TheFlash.jpg" alt="The Flash">
+                    <h2>The Flash</h2>
+                </div>
+
+                <div class="card">
+                    <img src="/images/moviesAndShows/Elemental.jpg" alt="Elemental">
+                    <h2>Elemental</h2>
+                </div>
+
+                <div class="card">
+                    <img src="/images/moviesAndShows/TheBlackening.jpg" alt="The Blackening">
+                    <h2>The Blackening</h2>
+                </div>
+
+                <div class="card">
+                    <img src="/images/moviesAndShows/Extraction2.jpg" alt="Extraction 2">
+                    <h2>Extraction 2</h2>
+                </div>
+
+                <div class="card">
+                    <img src="/images/moviesAndShows/TheLittleMermaid.jpg" alt="The Little Mermaid">
+                    <h2>The Little Mermaid</h2>
+                </div>
+
+                <div class="card">
+                    <img src="/images/moviesAndShows/Oppenheimer.jpg" alt="Oppenheimer">
+                    <h2>Oppenheimer</h2>
+                </div>
+
+                <div class="card">
+                    <img src="/images/moviesAndShows/Dune2.jpg" alt="Dune 2">
+                    <h2>Dune 2</h2>
+                </div>
+                -->
+            </div>
+        </main>
+
+        @{
+            Html.RenderPartial("_footer");
+        }
+
+
+        <script src="/scripts/movieCardTemplates.js"></script>
+    </body>
+    </html>
+}

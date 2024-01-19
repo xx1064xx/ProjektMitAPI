@@ -1,0 +1,119 @@
+/*
+
+{
+  "movies": [
+    {
+      "title": "Tenet",
+      "identifier": "Tenet",
+      "rating": 4,
+      "genre": "Action / SciFi",
+      "duration": 150,
+      "releaseDate": "2020, 7, 12",
+      "streamingPlatform": "Netflix",
+      "streamingLink": "https://www.netflix.com/ch/title/81198930?source=35",
+      "trailerLink": "https://www.youtube.com/embed/LdOM0x0XDMo?si=fMw8xPQs23nz_FOI",
+      "reviews": [
+        {
+          "rating": 3,
+          "comment": "The movie was well made but really confusing so I didn't really enjoy it."
+        },
+
+        {
+          "rating": 5,
+          "comment": "Great movie, nice story"
+        }
+      ]
+    },
+
+    {
+      "title": "Iron Man",
+      "identifier": "Iron_Man",
+      "rating": 4,
+      "genre": "Action / Adventure",
+      "duration": 126,
+      "releaseDate": "2008, 3, 30",
+      "streamingPlatform": "Disney+",
+      "streamingLink": "https://www.disneyplus.com/de-de/movies/iron-man/6aM2a8mZATiu",
+      "trailerLink": "https://www.youtube.com/embed/jK2VROKKTSQ?si=g7-3Sbst4LGnk5pR",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Best Marvel Movie ever"
+        },
+
+        {
+          "rating": 3,
+          "comment": "The Movie is not bad, but you see the age"
+        }
+      ]
+    },
+
+    {
+      "title": "The Batman",
+      "identifier": "TheBatman",
+      "rating": 5,
+      "genre": "Action / Crime",
+      "duration": 176,
+      "releaseDate": "2022, 2, 2",
+      "streamingPlatform": null,
+      "streamingLink": null,
+      "trailerLink": "https://www.youtube.com/embed/mqqft2x_Aa4?si=OSn_6Y7nSvwnK3oC",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Best superhero Movie"
+        },
+        {
+          "rating": 5,
+          "comment": "A Great movie, I really love how it is made"
+        }
+      ]
+    },
+
+    {
+      "title": "Inception",
+      "identifier": "Inception",
+      "rating": 5,
+      "genre": "Action / Adventure / SciFi",
+      "duration": 148,
+      "releaseDate": "2010, 6, 8",
+      "streamingPlatform": "Netflix",
+      "streamingLink": "https://www.netflix.com/watch/70131314?source=35",
+      "trailerLink": "https://www.youtube.com/embed/YoHD9XEInc0?si=9jz5nrDS87MGmAwW",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "A creative masterpiece"
+        },
+        {
+          "rating": 5,
+          "comment": "Really interesting concepts that sticked with me for a while"
+        }
+      ]
+    },
+
+    {
+      "title": "Now You See Me",
+      "identifier": "NowYouSeeMe",
+      "rating": 4,
+      "genre": "Crime / Mystery / Thriller",
+      "duration": 115,
+      "releaseDate": "2013, 5, 31",
+      "streamingPlatform": null,
+      "streamingLink": null,
+      "trailerLink": "https://www.youtube.com/embed/p-pVxwaFuBs?si=k3YiIacHj-nwvjF9",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "good movie, interesting plot"
+        },
+        {
+          "rating": 4,
+          "comment": "Really well made and nice twist at the end"
+        }
+      ]
+    }
+  ]
+}
+
+*/

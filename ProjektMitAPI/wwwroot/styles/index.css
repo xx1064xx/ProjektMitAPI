@@ -1,0 +1,85 @@
+﻿:root {
+    /*define the colors*/
+    --primaryColor: #2CD5C4;
+    --lightBlue: rgba(44,213,196,0.3);
+    --veryDarkBlue: #11121F;
+    --DarkBlue: #051620;
+    --veryLightBlue: #e0ebf7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main, header {
+    background-color: var(--veryDarkBlue);
+    padding: 25px;
+    color: var(--veryLightBlue);
+}
+
+
+.cardCollection > ul, #comingSoon {
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 30px;
+}
+
+/* MOVIE AND SHOW CARD */
+
+.card {
+    margin: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--primaryColor);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: var(--DarkBlue);
+    transition: 0.5s;
+    min-height: 400px;
+}
+
+
+    .card img {
+        width: 200px;
+    }
+
+    .card h2 {
+        margin: 10px 0 10px 0;
+    }
+
+
+.cardRating {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.card:hover {
+    cursor: pointer;
+    margin-top: 0px;
+    background-color: var(--lightBlue);
+}
+
+.cardRatingAndPictureSort {
+    display: flex;
+    justify-content: space-between;
+    max-height: 52px;
+}
+
+    .cardRatingAndPictureSort img {
+        display: block;
+        max-width: 52px;
+        transition: 0.5s;
+    }
+
+    .cardRatingAndPictureSort img:hover {
+        display: block;
+        max-width: 55px;
+        transition: 0.5s;
+    }
+
+
+

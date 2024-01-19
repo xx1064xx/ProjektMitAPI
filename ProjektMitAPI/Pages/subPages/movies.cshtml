@@ -1,0 +1,99 @@
+﻿@page
+
+<!--model und so kann potentiell entfernt werden-->
+@model ProjektMitAPI.Pages.IndexModel
+@{
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SCOPE</title>
+        <link rel="icon" href="images/JustLogoNoBackground.png">
+
+        <link rel="stylesheet" href="~/styles/styles.css">
+        <link rel="stylesheet" href="~/styles/index.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.7/dist/handlebars.min.js"></script>
+
+    </head>
+    <body>
+        <script type="text/x-handlebars-template" id="movieTemplate">
+            <ul class="list">
+                {{#each movies}}
+                <li class="card">
+                    <a href="/movieView?movie={{identifier}}">
+                        <img src="/images/moviesAndShows/{{identifier}}.jpg">
+                        <h2>{{title}}</h2>
+                        <div class="cardRatingAndPictureSort">
+                            <div class="cardRatingSort">
+                                <h3>{{rating}}</h3><p> / 5</p>
+                            </div>
+
+
+                            <img src="/images/HerzLeer.svg">
+
+                        </div>
+
+                    </a>
+                </li>
+                {{/each}}
+            </ul>
+        </script>
+
+
+
+
+
+        <header>
+            <div class="headertop">
+                <a href="/Index"><img src="/images/JustLogoNoBackground.png" alt="scope logo" class="logoHeader"></a>
+                <div id="searchbar">
+                    <input type="text" placeholder="Suche">
+                    <img src="/images/Untitled.svg" alt="search Icon">
+                </div>
+                <a href="/profile"><img src="/images/profilePicture.jpg" alt="Profile Picture" class="profilePicture"></a>
+            </div>
+            <nav>
+
+                <ul>
+                    <li><a href="/subPages/movies"><h3>Filme</h3></a></li>
+                    <li><a href="/subPages/series"><h3>Serien</h3></a></li>
+                    <li><a href="/subPages/genre"><h3>Genre</h3></a></li>
+                    <li><a href="/subPages/aviableOn"><h3>Erhältlich auf</h3></a></li>
+                </ul>
+
+            </nav>
+            <hr>
+        </header>
+
+        <main>
+            <h1>Filme</h1>
+
+
+            <div class="cardCollection" id="suggestions">
+            </div>
+
+        </main>
+
+        <footer>
+            <p>Loris & Julian</p>
+            <a href="/index"><img src="/images/JustLogoNoBackground.png" alt="scope logo" class="logoHeader"></a>
+            <p id="ScopeAcronym">
+                <span><strong>S</strong> - Streaming</span>
+                <span><strong>C</strong> - Catalog</span>
+                <span><strong>O</strong> - Of</span>
+                <span><strong>P</strong> - Premium</span>
+                <span><strong>E</strong> - Entertainment</span>
+            </p>
+        </footer>
+
+
+        <script src="/scripts/movieCardTemplates.js"></script>
+    </body>
+    </html>
+}
